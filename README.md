@@ -20,10 +20,9 @@ Contains programming books for final year modules.
 - **Librarian**: Staff who manage the library
 - **Category**: Book categories (Software Eng, Database, Project Management, etc.)
 
-  ##Contributing Guidelines
+ ## Contributing Guidelines
   
-  **Pull Request Process**
-  
+ ### **Pull Request Process** 
 - Create a branch with your student number
 - Implement your feature with tests
 - Ensure all tests pass
@@ -32,7 +31,7 @@ Contains programming books for final year modules.
 - Request review from team lead
 - Address review comments
 
- **Merge after approval**
+ ###**Merge after approval**
 
 - Code Review Checklist
 - Follows Builder Pattern
