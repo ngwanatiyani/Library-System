@@ -8,6 +8,11 @@ package repository;
 import java.util.Collection;
 
 public interface IRepository<T> {
-
+    T create(T t);
+    T read(String id);
+    T update(T t);
+    boolean delete(String id);
+    Collection<T> getAll();
 }
+
 
