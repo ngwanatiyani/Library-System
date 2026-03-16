@@ -20,7 +20,6 @@ Contains programming books for final year modules.
 - **Librarian**: Staff who manage the library
 - **Category**: Book categories (Software Eng, Mobile, Web, etc.)
 
-<<<<<<< HEAD
 ## UML Diagram
 
 
