@@ -1,4 +1,4 @@
-# 3rd Year AppDev Library System
+## 3rd Year AppDev Library System
 
 ## Group Members
 - Leader: 1: TIYANI NGWANA      231266731 - Category and Publisher Entity
