@@ -1,6 +1,5 @@
 <<<<<<< HEAD
-# Library-System
-=======
+
 # 3rd Year AppDev Library System
 
 ## Group Members
@@ -25,7 +24,7 @@ Contains programming books for final year modules.
 <<<<<<< HEAD
 ## UML Diagram
 
-=======
+
 
 >>>>>>> master
 
