@@ -1,7 +1,7 @@
 package factory;
 
 
-//Member Factory Test
+//Member Factory Test.
 //Author:
 //Date:
 

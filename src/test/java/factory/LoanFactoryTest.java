@@ -1,7 +1,7 @@
 package factory;
 
 
-//Loan Factory Test
+//Loan Factory Test.
 //Author:
 //Date:
 

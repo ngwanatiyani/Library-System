@@ -1,7 +1,7 @@
 /* Category.java
-   Category domain class
-   Author: Ngwana Tiyani 231266731
-   Date: 16 March 2026
+   Category domain class.
+   Author: Ngwana Tiyani 231266731.
+   Date: 16 March 2026.
 */
 package domain;
 

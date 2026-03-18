@@ -1,7 +1,7 @@
 package factory;
 
 
-//Reservation Factory Test
+//Reservation Factory Test.
 //Author:
 //Date:
 
