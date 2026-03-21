@@ -14,7 +14,7 @@ import java.util.Objects;
 public class Reservation
 {
     private String reservationID;;
-    private LocalDate date;
+    private static LocalDate date;
     private String status;
     private LocalDate expiryDate;
 
