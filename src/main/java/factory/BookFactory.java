@@ -1,6 +1,6 @@
 /* BookFactory.java
    Book factory class
-   Author: Tiyani Ngwana (231266731)
+   Author: Nomhle Njengele (216227488)
    Date: 13 March 2026
 */
 package factory;
