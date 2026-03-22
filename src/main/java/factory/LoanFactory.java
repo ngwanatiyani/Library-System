@@ -19,7 +19,7 @@ public class LoanFactory {
                 .setReturnDate(returnDate)
                 .build();
 
- }
+    }
 
     //End of program
 }
