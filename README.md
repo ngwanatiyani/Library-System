@@ -7,9 +7,9 @@ A specialized library management system tailored for Cape Peninsula University o
 
 ## How it works
 
--Student Transactions: Registered Members can initiate Loans for available books and create Reservations for titles currently in use.
--Administrative Oversight: Specialized Librarian roles are responsible for managing the lifecycle of both Loans and Reservations, ensuring data integrity and availability.
--Temporal Tracking: The system enforces business rules through automated tracking of issue dates, due dates, and reservation expiry dates
+- Registered Members can initiate Loans for available books and create Reservations for titles currently in use.
+- There are Specialized Librarian roles are responsible for managing the lifecycle of both Loans and Reservations, ensuring data integrity and availability.
+- The system enforces business rules through automated tracking of issue dates, due dates, and reservation expiry dates.
 
 ## Entities
 - **Book**: Textbooks available in the library
