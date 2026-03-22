@@ -1,8 +1,5 @@
 package factory;
-/*
-*Author: Sinazo Ntsimbi
-* 222765208
- */
+
 import domain.Loan;
 import org.junit.jupiter.api.Test;
 
@@ -12,6 +9,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
+//Loan Factory Test.
+//Author: Sinazo Ntsimbi 222765208
+//Date: 16 March 2026
 
 public class LoanFactoryTest {
 
