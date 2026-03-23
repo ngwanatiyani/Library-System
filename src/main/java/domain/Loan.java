@@ -1,10 +1,11 @@
-package domain;
-
 /*
  * Authour: Sinazo Ntsimbi
  * 222765208
  * Date: 16 March 2026
  */
+
+package domain;
+
 import java.time.LocalDate;
 import java.util.Objects;
 

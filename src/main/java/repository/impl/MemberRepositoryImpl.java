@@ -2,9 +2,9 @@
 package repository.impl;
 
 import domain.Member;
-import domain.Reservation;
 import repository.MemberRepository;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -17,19 +17,6 @@ public class MemberRepositoryImpl implements MemberRepository {
         return member.getMemberID();
     }
 
-    private static ReservationRepositoryImpl repository = null;
-
-
-
-    public static ReservationRepositoryImpl getRepository() {
-        if (repository == null) {
-            repository = new ReservationRepositoryImpl();
-
-        }
-        return repository;
-
-    }
-
     @Override
     public Member create(Member entity) {
         storage.put(keyFor(entity), entity);
@@ -37,18 +24,8 @@ public class MemberRepositoryImpl implements MemberRepository {
     }
 
     @Override
-    public Member save(Member entity) {
-        return null;
-    }
-
-    @Override
     public Optional<Member> read(String id) {
         return Optional.ofNullable(storage.get(id));
-    }
-
-    @Override
-    public Optional<Member> findById(String s) {
-        return Optional.empty();
     }
 
     @Override
@@ -62,6 +39,9 @@ public class MemberRepositoryImpl implements MemberRepository {
         return storage.remove(id) != null;
     }
 
-
+    @Override
+    public Collection<Member> getAll() {
+        return storage.values();
+    }
 }
 

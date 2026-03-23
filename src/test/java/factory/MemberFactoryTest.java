@@ -1,9 +1,8 @@
-package factory;
-
-
 //Member Factory Test.
 //Author: 230240887 Nxasana Owenkosi
 //Date: 16 March
+
+package factory;
 
 import domain.Member;
 import org.junit.jupiter.api.Test;

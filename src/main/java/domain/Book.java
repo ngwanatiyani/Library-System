@@ -7,9 +7,6 @@
 
 package domain;
 
-//Book domain class
-//Author: Nomhle Njengele
-//Date: 16 March 2026
 
 
 public class Book {
