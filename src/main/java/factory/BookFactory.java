@@ -1,6 +1,10 @@
 /* BookFactory.java
    Book factory class
+<<<<<<< HEAD
    Author: Nomhle Njengele (216227488)
+=======
+   Author: Nomhle Njengele (2116227488)
+>>>>>>> e584ba6 (Add BookFactoryTest)
    Date: 13 March 2026
 */
 package factory;
