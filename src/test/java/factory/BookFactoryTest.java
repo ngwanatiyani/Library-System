@@ -1,23 +1,5 @@
-<<<<<<< HEAD
-//Book Factory Test
-// Author: Nomhle Ngengele 216227488
-// Date: 16 March 2026
-
-package factory;
-
-import domain.Book;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
-
-public class BookFactoryTest
-{
-
-}
-=======
 /* BookFactory.java
    Book factory class
    Author: Nomhle Njengele (2116227488)
@@ -60,4 +42,4 @@ public class BookFactoryTest {
             assertEquals("Timothy J. Kloppenborg", book.getAuthor());
         }
     }
->>>>>>> e584ba6 (Add BookFactoryTest)
+

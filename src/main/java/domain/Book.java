@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> e584ba6 (Add BookFactoryTest)
 /* Book.java
    Book domain class
    Author: Nomhle Njengele (216227488)
@@ -10,13 +7,8 @@
 
 package domain;
 
-<<<<<<< HEAD
 
-
-public class Book {
-=======
 public class  Book {
->>>>>>> e584ba6 (Add BookFactoryTest)
 
     private final String bookId;
     private final String isbn;
