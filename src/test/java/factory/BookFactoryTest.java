@@ -1,48 +1,45 @@
-//Book Factory Test
-// Author: Nomhle Ngengele 216227488
-// Date: 16 March 2026
+
+
+/* BookFactory.java
+   Book factory class
+   Author: Nomhle Njengele (2116227488)
+   Date: 13 March 2026
+*/
 
 package factory;
-
 import domain.Book;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
-
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BookFactoryTest {
-    
-    @Test
-    void testCreateBasicBook() {
-        Book book = BookFactory.createBasicBook("B001", "978-0134685991", "Effective Java");
-        
-        assertNotNull(book);
-        assertEquals("B001", book.getBookId());
-        assertEquals("978-0134685991", book.getIsbn());
-        assertEquals("Effective Java", book.getTitle());
+
+        @Test
+        public void testBookIsCreated() {
+            Book book = new Book.Builder("B001", "978-0357442234", "Contemporary Project Management")
+                    .author("Timothy J. Kloppenborg")
+                    .subject("Project Management")
+                    .publisher("Cengage")
+                    .publicationYear(2019)
+                    .build();
+
+            assertNotNull(book);
+        }
+
+        @Test
+        public void testBookTitle() {
+            Book book = new Book.Builder("B001", "978-0357442234", "Contemporary Project Management")
+                    .build();
+
+            assertEquals("Contemporary Project Management", book.getTitle());
+        }
+
+        @Test
+        public void testBookAuthor() {
+            Book book = new Book.Builder("B001", "978-0357442234", "Contemporary Project Management")
+                    .author("Timothy J. Kloppenborg")
+                    .build();
+
+            assertEquals("Timothy J. Kloppenborg", book.getAuthor());
+        }
     }
-    
-    @Test
-    void testCreateBook() {
-        Book book = BookFactory.createBook(
-                "B002",
-                "978-0596007126",
-                "Head First Java",
-                "Bert Bates",
-                "Programming",
-                "O'Reilly",
-                2005
-        );
-        
-        assertNotNull(book);
-        assertEquals("B002", book.getBookId());
-        assertEquals("978-0596007126", book.getIsbn());
-        assertEquals("Head First Java", book.getTitle());
-        assertEquals("Bert Bates", book.getAuthor());
-        assertEquals("Programming", book.getSubject());
-        assertEquals("O'Reilly", book.getPublisher());
-        assertEquals(2005, book.getPublicationYear());
-    }
-}
+

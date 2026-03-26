@@ -1,7 +1,7 @@
-/* LoanRepositoryImplTest.java
-   Loan repository implementation test
-   Author: Sinazo Ntsimbi (222765208)
-   Date: 23 March 2026
+/** LoanRepositoryImplTest.java
+ * Loan repository implementation test
+ * Author: Sinazo Ntsimbi 222765208
+ * Date: 23 March 2026
 */
 package repository.impl;
 

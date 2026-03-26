@@ -8,8 +8,7 @@
 package domain;
 
 
-
-public class Book {
+public class  Book {
 
     private final String bookId;
     private final String isbn;
