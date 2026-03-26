@@ -11,10 +11,10 @@ import java.util.Objects;
 
 public class Loan {
 
-    private String loanId;
-    private LocalDate issueDate;
-    private LocalDate dueDate;
-    private LocalDate returnDate;
+    private final String loanId;
+    private final LocalDate issueDate;
+    private final LocalDate dueDate;
+    private final LocalDate returnDate;
 
     // Private constructor (Builder Pattern requirement)
     private Loan(Builder builder) {

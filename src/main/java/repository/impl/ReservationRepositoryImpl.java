@@ -12,7 +12,18 @@ import java.util.Optional;
 
 public class ReservationRepositoryImpl implements ReservationRepository {
 
+    private static ReservationRepositoryImpl instance;
     private final Map<String, Reservation> storage = new HashMap<>();
+
+    private ReservationRepositoryImpl() {
+    }
+
+    public static synchronized ReservationRepositoryImpl getInstance() {
+        if (instance == null) {
+            instance = new ReservationRepositoryImpl();
+        }
+        return instance;
+    }
 
     @Override
     public Reservation create(Reservation entity) {
